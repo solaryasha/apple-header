@@ -1,6 +1,6 @@
-const nav = document.querySelector('.nav');
-const toggler = document.querySelector('.nav__toggler');
+const menu = document.querySelector('.menu');
+const toggler = document.querySelector('.menu__toggler');
 
 toggler.addEventListener('click', function() {
-  nav.classList.toggle('nav--open');
+  menu.classList.toggle('menu--open');
 });

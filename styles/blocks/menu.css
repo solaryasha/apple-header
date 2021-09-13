@@ -40,17 +40,6 @@
   max-height: 100vh;
 }
 
-@media (min-width: 640px) {
-  .menu__list {
-    flex-direction: row;
-    max-height: revert;
-  }
-
-  .menu__toggler {
-    display: none;
-  }
-}
-
 .menu__link {
   display: block;
   margin: 0 20px;
