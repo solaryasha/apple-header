@@ -3,20 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <script defer src="./index.js"></script>
   <title>Apple</title>
 </head>
 <body>
-  <div class="promo"></div>
   <header class="header">
-    <nav class="nav">
+    <a class="nav__link" href="#">Home</a>
+    <nav class="header__nav nav">
       <button class="nav__toggler"></button>
 
       <ul class="nav__list">
-        <li class="nav__item">
-          <a class="nav__link" href="#">Home</a>
-        </li>
         <li class="nav__item">
           <a class="nav__link" href="#mac">Mac</a>
         </li>
@@ -28,6 +25,24 @@
         </li>
         <li class="nav__item">
           <a class="nav__link" href="#watch">Watch</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="header__menu menu">
+      <button class="menu__toggler"></button>
+
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="#mac">Mac</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#ipad">iPad</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#iphone">iPhone</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#watch">Watch</a>
         </li>
       </ul>
     </nav>
