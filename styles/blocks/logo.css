@@ -1,0 +1,15 @@
+.logo {
+  display: block;
+  padding: 20px var(--horizontal-logo-padding);
+
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition: color 0.3s;
+}
+
+.logo:hover {
+  color: #ff0;
+}
