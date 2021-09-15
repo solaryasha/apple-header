@@ -8,8 +8,8 @@
   text-transform: uppercase;
 
   transition: color 0.3s;
-}
 
-.logo:hover {
-  color: #ff0;
+  &:hover {
+    color: #ff0;
+  }
 }

@@ -1,0 +1,36 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+
+  &__content {
+    max-width: $max-width-limitation;
+    margin: 0 auto;
+
+    @extend %space-between-container;
+  }
+
+  &__nav {
+    display: none;
+
+    @media (min-width: 640px) {
+      display: block;
+    }
+  }
+
+  &__menu {
+    display: block;
+
+    @media (min-width: 640px) {
+      display: none;
+    }
+  }
+
+  &__logo {
+    margin-left: calc(0px - var(--horizontal-logo-padding));
+    margin-right: calc(0px - var(--horizontal-logo-padding));;
+  }
+} 

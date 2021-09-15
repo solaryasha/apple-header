@@ -3,16 +3,14 @@
   bottom: 0;
   z-index: -1;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %horizontal-vertical-centering;
 
   height: 300px;
 
   text-align: center;
   color: #fff;
 
-  background-image: url("https://mate-academy.github.io/fe-program/assets/MA_bottom.jpg");
+  background-image: url(../images/star.svg);
   background-size: cover;
   background-position: top;
 }
